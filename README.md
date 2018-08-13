@@ -11,7 +11,7 @@ None.
 Role Variables
 --------------
 
-* nodejs_version - defines the version of nodejs to install
+* `nodejs_version` - defines the version of nodejs to install
 
 Dependencies
 ------------
