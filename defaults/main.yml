@@ -1,6 +1,6 @@
 ---
 
-nodejs_version: 8
+nodejs_version: 10
 
 nodejs_setup_script: "setup_{{ nodejs_version }}.x"
 
