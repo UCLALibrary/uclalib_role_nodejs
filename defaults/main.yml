@@ -2,4 +2,5 @@
 
 nodejs_version: 16
 
+nodesource_gpg_key_url: 'https://rpm.nodesource.com/gpgkey/nodesource.gpg.key'
 nodesource_repo_url: 'https://rpm.nodesource.com/pub_{{ nodejs_version }}.x/nodistro/repo/nodesource-release-nodistro-1.noarch.rpm'

@@ -1,5 +1,10 @@
 ---
 
+- name: Install the nodesourec yum repository gpg key
+  rpm_key:
+    key: '{{ nodesource_gpg_key_url }}'
+    state: present
+
 - name: Install the nodesource yum repository
   yum:
     name: '{{ nodesource_repo_url }}'
