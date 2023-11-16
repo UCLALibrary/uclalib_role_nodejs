@@ -1,11 +1,9 @@
 ---
 
-- name: Install the nodejs yum repository
-  shell: >
-    curl -sL {{ nodejs_setup_url }} | bash -
-    creates={{ nodejs_repo_path }}
-  args:
-    warn: no
+- name: Install the nodesource yum repository
+  yum:
+    name: '{{ nodesource_repo_url }}'
+    state: present
 
 - name: Install nodejs
   yum:

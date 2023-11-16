@@ -2,8 +2,4 @@
 
 nodejs_version: 10
 
-nodejs_setup_script: "setup_{{ nodejs_version }}.x"
-
-nodejs_setup_url: "https://rpm.nodesource.com/{{ nodejs_setup_script }}"
-
-nodejs_repo_path: "/etc/yum.repos.d/nodesource-el7.repo"
+nodesource_repo_url: 'https://rpm.nodesource.com/pub_{{ nodejs_version }}.x/nodistro/repo/nodesource-release-nodistro-1.noarch.rpm'
