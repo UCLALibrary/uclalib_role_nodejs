@@ -1,7 +1,7 @@
 uclalib_role_nodejs
 =========
 
-Ansible role to install Nodejs on a RHEL7 system.
+Ansible role to install Nodejs on a RHEL system.
 
 Requirements
 ------------
