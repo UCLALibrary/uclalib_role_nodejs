@@ -3,12 +3,12 @@
 - name: Install the nodejs yum repository
   shell: >
     curl -sL {{ nodejs_setup_url }} | bash -
-    creates={{ nodejs_repo_path }}
   args:
-    warn: no
+    warn: "no"
+    creates: "{{ nodejs_repo_path }}"
 
 - name: Install nodejs
   yum:
-    name: nodejs
-    state: present
-    update_cache: yes
+    name: "nodejs"
+    state: "present"
+    update_cache: "yes"
